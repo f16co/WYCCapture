@@ -1,6 +1,0 @@
-WYCCapture Manual
-
-- Custom drawing with a pen in a captured region: Ctrl + Mouse Left Button
-- Zoom in & out in a captured region: Ctrl + Wheel Up or Down
-
-(c.f. Please refer to the shortcut key for the remainings)
