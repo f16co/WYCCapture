@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{b81d5392-aff0-491e-8726-71f9885260a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\PathEnvironments">
+      <UniqueIdentifier>{3f3e01a6-e81d-4004-b301-cea1f84269e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Shortcut">
+      <UniqueIdentifier>{9791f0f3-f500-4bed-a118-066bd60fdc69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\SystemInitializer">
+      <UniqueIdentifier>{e059ca2f-1510-4495-bf89-96e500434696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Threads">
+      <UniqueIdentifier>{0e2b2fd1-3852-4d34-b64b-65698ee3aaa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Threads\RegionCapture">
+      <UniqueIdentifier>{ae5dc91e-abfa-4e6a-b1ef-6997fb2b8cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Threads\CapturedRegion">
+      <UniqueIdentifier>{a63eedfb-4ecf-442f-bef0-1450d501f12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Threads\WindowCapture">
+      <UniqueIdentifier>{10b5acd3-719d-4800-9f4d-af2d4404710e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\MultiMonitor">
+      <UniqueIdentifier>{b887900d-2ac4-4d82-8c8f-0eb00ebf6e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\UI">
+      <UniqueIdentifier>{0c791229-3e0f-4517-a2f4-3d4972a6c01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Util">
+      <UniqueIdentifier>{da023ed1-92b5-435e-b287-e9d079cce058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\XMLParser">
+      <UniqueIdentifier>{b570ff93-92bc-4315-a55f-c3eb5713539b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\XMLParser\Shortcut">
+      <UniqueIdentifier>{85e94775-1725-4ec9-b9b3-648342cd5470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\LocalSystemTime">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Includes\STL">
+      <UniqueIdentifier>{7f82806b-41ce-49a7-bd2d-635e68fdaae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\GlobalFunction">
+      <UniqueIdentifier>{6e5c4b4c-5108-4144-9457-b604406bf468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\GlobalInfo">
+      <UniqueIdentifier>{cb75f556-081d-4828-9937-45615feb76ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\LockEx">
+      <UniqueIdentifier>{c45610e7-44fc-4dcd-a75f-b6ae44e1172e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\PerformanceChecker">
+      <UniqueIdentifier>{f7b8284a-eb9e-457d-9c43-f9369ee7de84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\ScopeLock">
+      <UniqueIdentifier>{4b105cfa-c4c0-4074-941f-24c32f62cbe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Settings">
+      <UniqueIdentifier>{14de6708-790f-40f2-ad5c-0a2f1e0156d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\TraceEx">
+      <UniqueIdentifier>{67312e84-b89c-4245-b505-b3511b3fccd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\TrayIconManager">
+      <UniqueIdentifier>{a9a23231-988c-4a6e-9e11-78d881d41c7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\UI\DlgProductInfo">
+      <UniqueIdentifier>{f801e148-091b-426c-a1d7-087c3f909071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\UI\DlgSetting">
+      <UniqueIdentifier>{02869b8b-933a-40ab-97b0-d37b7a82b7ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\UI\TabShortcut">
+      <UniqueIdentifier>{f64a82cc-c384-4895-8d41-a019c14d230e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\WMManager">
+      <UniqueIdentifier>{94f06fff-9aa0-4dff-844c-0a18f80cb0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\WndManager">
+      <UniqueIdentifier>{5cb535be-9335-4670-a344-b85f79816f86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\GlobalSetting">
+      <UniqueIdentifier>{f648013e-8c91-46af-a890-215252357f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\XMLParser\GlobalSetting">
+      <UniqueIdentifier>{54903546-18c9-4a14-8078-6a744533bc23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\UI\TransparentEdit">
+      <UniqueIdentifier>{9df2b92e-c0a5-45e9-9657-f9bb75985a3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="WYCCapture.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="WYCCaptureDlg.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GlobalFunction\GlobalFunction.h">
+      <Filter>Includes\GlobalFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GlobalInfo\GlobalInfo.h">
+      <Filter>Includes\GlobalInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\LocalSystemTime\LocalSystemTime.h">
+      <Filter>Includes\LocalSystemTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\LockEx\LockEx.h">
+      <Filter>Includes\LockEx</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\MultiMonitor\MonitorDC.h">
+      <Filter>Includes\MultiMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\MultiMonitor\Monitors.h">
+      <Filter>Includes\MultiMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\MultiMonitor\MultiMonitor.h">
+      <Filter>Includes\MultiMonitor</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\PathEnvironments\PathEnvironments.h">
+      <Filter>Includes\PathEnvironments</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\PerformanceChecker\PerformanceChecker.h">
+      <Filter>Includes\PerformanceChecker</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\ScopeLock\ScopeLock.h">
+      <Filter>Includes\ScopeLock</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Settings\UserMessages.h">
+      <Filter>Includes\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Settings\UserResources.h">
+      <Filter>Includes\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Shortcut\KeyMapper.h">
+      <Filter>Includes\Shortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Shortcut\ShortcutManager.h">
+      <Filter>Includes\Shortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Shortcut\ShortcutTarget.h">
+      <Filter>Includes\Shortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\STL\SafeQueue.h">
+      <Filter>Includes\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\SystemInitializer\SystemInitializer.h">
+      <Filter>Includes\SystemInitializer</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\ThreadEx.h">
+      <Filter>Includes\Threads</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\CapturedRegion\CapturedRegion.h">
+      <Filter>Includes\Threads\CapturedRegion</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\CapturedRegion\CapturedRegionManager.h">
+      <Filter>Includes\Threads\CapturedRegion</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\RegionCapture\RegionCaptureDetailRegion.h">
+      <Filter>Includes\Threads\RegionCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\RegionCapture\RegionCaptureDrawRegion.h">
+      <Filter>Includes\Threads\RegionCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\RegionCapture\RegionCaptureThread.h">
+      <Filter>Includes\Threads\RegionCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\WindowCapture\WindowCaptureDetailRegion.h">
+      <Filter>Includes\Threads\WindowCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\WindowCapture\WindowCaptureDrawRegion.h">
+      <Filter>Includes\Threads\WindowCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Threads\WindowCapture\WindowCaptureThread.h">
+      <Filter>Includes\Threads\WindowCapture</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TraceEx\TraceEx.h">
+      <Filter>Includes\TraceEx</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TrayIconManager\TrayIconManager.h">
+      <Filter>Includes\TrayIconManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\UI\DlgProductInfo\DlgProductInfo.h">
+      <Filter>Includes\UI\DlgProductInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\UI\DlgSetting\DlgSetting.h">
+      <Filter>Includes\UI\DlgSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\UI\TabShortcut\TabShortcut.h">
+      <Filter>Includes\UI\TabShortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Util\StringUtil.h">
+      <Filter>Includes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WMManager\WMManager.h">
+      <Filter>Includes\WMManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WndManager\WndManager.h">
+      <Filter>Includes\WndManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\ezxml.h">
+      <Filter>Includes\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\Serializable.h">
+      <Filter>Includes\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\SerializationInfo.h">
+      <Filter>Includes\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\XmlSerializer.h">
+      <Filter>Includes\XMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\Shortcut\ShortcutInfoNode.h">
+      <Filter>Includes\XMLParser\Shortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\Shortcut\ShortcutListNode.h">
+      <Filter>Includes\XMLParser\Shortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\Shortcut\ShortcutListParser.h">
+      <Filter>Includes\XMLParser\Shortcut</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\WMManager\WMTarget.h">
+      <Filter>Includes\WMManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\GlobalSetting\GlobalSettingParser.h">
+      <Filter>Includes\XMLParser\GlobalSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\XMLParser\GlobalSetting\GlobalSettingNode.h">
+      <Filter>Includes\XMLParser\GlobalSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\GlobalSetting\GlobalSetting.h">
+      <Filter>Includes\GlobalSetting</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\TraceEx\TraceCollection.h">
+      <Filter>Includes\TraceEx</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\UI\TransparentEdit\TransparentEdit.h">
+      <Filter>Includes\UI\TransparentEdit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WYCCapture.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="WYCCaptureDlg.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\GlobalFunction\GlobalFunction.cpp">
+      <Filter>Includes\GlobalFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\GlobalInfo\GlobalInfo.cpp">
+      <Filter>Includes\GlobalInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\LocalSystemTime\LocalSystemTime.cpp">
+      <Filter>Includes\LocalSystemTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\LockEx\LockEx.cpp">
+      <Filter>Includes\LockEx</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\MultiMonitor\MonitorDC.cpp">
+      <Filter>Includes\MultiMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\MultiMonitor\Monitors.cpp">
+      <Filter>Includes\MultiMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\MultiMonitor\MultiMonitor.cpp">
+      <Filter>Includes\MultiMonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\PathEnvironments\PathEnvironments.cpp">
+      <Filter>Includes\PathEnvironments</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\PerformanceChecker\PerformanceChecker.cpp">
+      <Filter>Includes\PerformanceChecker</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\ScopeLock\ScopeLock.cpp">
+      <Filter>Includes\ScopeLock</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Shortcut\KeyMapper.cpp">
+      <Filter>Includes\Shortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Shortcut\ShortcutManager.cpp">
+      <Filter>Includes\Shortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\SystemInitializer\SystemInitializer.cpp">
+      <Filter>Includes\SystemInitializer</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\ThreadEx.cpp">
+      <Filter>Includes\Threads</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\CapturedRegion\CapturedRegion.cpp">
+      <Filter>Includes\Threads\CapturedRegion</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\CapturedRegion\CapturedRegionManager.cpp">
+      <Filter>Includes\Threads\CapturedRegion</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\RegionCapture\RegionCaptureDetailRegion.cpp">
+      <Filter>Includes\Threads\RegionCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\RegionCapture\RegionCaptureDrawRegion.cpp">
+      <Filter>Includes\Threads\RegionCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\RegionCapture\RegionCaptureThread.cpp">
+      <Filter>Includes\Threads\RegionCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\WindowCapture\WindowCaptureDetailRegion.cpp">
+      <Filter>Includes\Threads\WindowCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\WindowCapture\WindowCaptureDrawRegion.cpp">
+      <Filter>Includes\Threads\WindowCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Threads\WindowCapture\WindowCaptureThread.cpp">
+      <Filter>Includes\Threads\WindowCapture</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\TraceEx\TraceEx.cpp">
+      <Filter>Includes\TraceEx</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\TrayIconManager\TrayIconManager.cpp">
+      <Filter>Includes\TrayIconManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\UI\DlgProductInfo\DlgProductInfo.cpp">
+      <Filter>Includes\UI\DlgProductInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\UI\DlgSetting\DlgSetting.cpp">
+      <Filter>Includes\UI\DlgSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\UI\TabShortcut\TabShortcut.cpp">
+      <Filter>Includes\UI\TabShortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Util\StringUtil.cpp">
+      <Filter>Includes\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\WMManager\WMManager.cpp">
+      <Filter>Includes\WMManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\WndManager\WndManager.cpp">
+      <Filter>Includes\WndManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\ezxml.cpp">
+      <Filter>Includes\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\Serializable.cpp">
+      <Filter>Includes\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\SerializationInfo.cpp">
+      <Filter>Includes\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\XmlSerializer.cpp">
+      <Filter>Includes\XMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\Shortcut\ShortcutInfoNode.cpp">
+      <Filter>Includes\XMLParser\Shortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\Shortcut\ShortcutListNode.cpp">
+      <Filter>Includes\XMLParser\Shortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\Shortcut\ShortcutListParser.cpp">
+      <Filter>Includes\XMLParser\Shortcut</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\GlobalSetting\GlobalSettingParser.cpp">
+      <Filter>Includes\XMLParser\GlobalSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\XMLParser\GlobalSetting\GlobalSettingNode.cpp">
+      <Filter>Includes\XMLParser\GlobalSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\GlobalSetting\GlobalSetting.cpp">
+      <Filter>Includes\GlobalSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\UI\TransparentEdit\TransparentEdit.cpp">
+      <Filter>Includes\UI\TransparentEdit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WYCCapture.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WYCCapture.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WYCCapture.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

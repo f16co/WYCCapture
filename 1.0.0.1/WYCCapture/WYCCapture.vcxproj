@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{44A9CA6B-E171-4661-8E75-0A7C80BCEB8E}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>WYCCapture</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)XMLParser;$(ProjectDir)Shortcut;$(ProjectDir)LocalSystemTime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_TRACEEX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)Includes;$(ProjectDir)Includes\GlobalFunction;$(ProjectDir)Includes\GlobalInfo;$(ProjectDir)Includes\GlobalSetting;$(ProjectDir)Includes\LocalSystemTime;$(ProjectDir)Includes\LockEx;$(ProjectDir)Includes\MultiMonitor;$(ProjectDir)Includes\PathEnvironments;$(ProjectDir)Includes\PerformanceChecker;$(ProjectDir)Includes\ScopeLock;$(ProjectDir)Includes\Settings;$(ProjectDir)Includes\Shortcut;$(ProjectDir)Includes\STL;$(ProjectDir)Includes\SystemInitializer;$(ProjectDir)Includes\Threads;$(ProjectDir)Includes\Threads\CapturedRegion;$(ProjectDir)Includes\Threads\RegionCapture;$(ProjectDir)Includes\Threads\WindowCapture;$(ProjectDir)Includes\TraceEx;$(ProjectDir)Includes\TrayIconManager;$(ProjectDir)Includes\UI;$(ProjectDir)Includes\UI\DlgProductInfo;$(ProjectDir)Includes\UI\DlgSetting;$(ProjectDir)Includes\UI\TabShortcut;$(ProjectDir)Includes\Util;$(ProjectDir)Includes\WMManager;$(ProjectDir)Includes\WndManager;$(ProjectDir)Includes\XMLParser;$(ProjectDir)Includes\XMLParser\Shortcut;$(ProjectDir)Includes\XMLParser\GlobalSetting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>vld.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)PostBuild.bat" "$(ProjectDir)" "$(TargetDir)" $(PlatformName)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)XMLParser;$(ProjectDir)Shortcut;$(ProjectDir)LocalSystemTime;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;_TRACEEX;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)Includes;$(ProjectDir)Includes\GlobalFunction;$(ProjectDir)Includes\GlobalInfo;$(ProjectDir)Includes\GlobalSetting;$(ProjectDir)Includes\LocalSystemTime;$(ProjectDir)Includes\LockEx;$(ProjectDir)Includes\MultiMonitor;$(ProjectDir)Includes\PathEnvironments;$(ProjectDir)Includes\PerformanceChecker;$(ProjectDir)Includes\ScopeLock;$(ProjectDir)Includes\Settings;$(ProjectDir)Includes\Shortcut;$(ProjectDir)Includes\STL;$(ProjectDir)Includes\SystemInitializer;$(ProjectDir)Includes\Threads;$(ProjectDir)Includes\Threads\CapturedRegion;$(ProjectDir)Includes\Threads\RegionCapture;$(ProjectDir)Includes\Threads\WindowCapture;$(ProjectDir)Includes\TraceEx;$(ProjectDir)Includes\TrayIconManager;$(ProjectDir)Includes\UI;$(ProjectDir)Includes\UI\DlgProductInfo;$(ProjectDir)Includes\UI\DlgSetting;$(ProjectDir)Includes\UI\TabShortcut;$(ProjectDir)Includes\Util;$(ProjectDir)Includes\WMManager;$(ProjectDir)Includes\WndManager;$(ProjectDir)Includes\XMLParser;$(ProjectDir)Includes\XMLParser\Shortcut;$(ProjectDir)Includes\XMLParser\GlobalSetting;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>"$(ProjectDir)PostBuild.bat" "$(ProjectDir)" "$(TargetDir)" $(PlatformName)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Includes\GlobalFunction\GlobalFunction.h" />
+    <ClInclude Include="Includes\GlobalInfo\GlobalInfo.h" />
+    <ClInclude Include="Includes\GlobalSetting\GlobalSetting.h" />
+    <ClInclude Include="Includes\LocalSystemTime\LocalSystemTime.h" />
+    <ClInclude Include="Includes\LockEx\LockEx.h" />
+    <ClInclude Include="Includes\MultiMonitor\MonitorDC.h" />
+    <ClInclude Include="Includes\MultiMonitor\Monitors.h" />
+    <ClInclude Include="Includes\MultiMonitor\MultiMonitor.h" />
+    <ClInclude Include="Includes\PathEnvironments\PathEnvironments.h" />
+    <ClInclude Include="Includes\PerformanceChecker\PerformanceChecker.h" />
+    <ClInclude Include="Includes\ScopeLock\ScopeLock.h" />
+    <ClInclude Include="Includes\Settings\UserMessages.h" />
+    <ClInclude Include="Includes\Settings\UserResources.h" />
+    <ClInclude Include="Includes\Shortcut\KeyMapper.h" />
+    <ClInclude Include="Includes\Shortcut\ShortcutManager.h" />
+    <ClInclude Include="Includes\Shortcut\ShortcutTarget.h" />
+    <ClInclude Include="Includes\STL\SafeQueue.h" />
+    <ClInclude Include="Includes\SystemInitializer\SystemInitializer.h" />
+    <ClInclude Include="Includes\Threads\CapturedRegion\CapturedRegion.h" />
+    <ClInclude Include="Includes\Threads\CapturedRegion\CapturedRegionManager.h" />
+    <ClInclude Include="Includes\Threads\RegionCapture\RegionCaptureDetailRegion.h" />
+    <ClInclude Include="Includes\Threads\RegionCapture\RegionCaptureDrawRegion.h" />
+    <ClInclude Include="Includes\Threads\RegionCapture\RegionCaptureThread.h" />
+    <ClInclude Include="Includes\Threads\ThreadEx.h" />
+    <ClInclude Include="Includes\Threads\WindowCapture\WindowCaptureDetailRegion.h" />
+    <ClInclude Include="Includes\Threads\WindowCapture\WindowCaptureDrawRegion.h" />
+    <ClInclude Include="Includes\Threads\WindowCapture\WindowCaptureThread.h" />
+    <ClInclude Include="Includes\TraceEx\TraceCollection.h" />
+    <ClInclude Include="Includes\TraceEx\TraceEx.h" />
+    <ClInclude Include="Includes\TrayIconManager\TrayIconManager.h" />
+    <ClInclude Include="Includes\UI\DlgProductInfo\DlgProductInfo.h" />
+    <ClInclude Include="Includes\UI\DlgSetting\DlgSetting.h" />
+    <ClInclude Include="Includes\UI\TabShortcut\TabShortcut.h" />
+    <ClInclude Include="Includes\Util\StringUtil.h" />
+    <ClInclude Include="Includes\WMManager\WMManager.h" />
+    <ClInclude Include="Includes\WMManager\WMTarget.h" />
+    <ClInclude Include="Includes\WndManager\WndManager.h" />
+    <ClInclude Include="Includes\XMLParser\ezxml.h" />
+    <ClInclude Include="Includes\XMLParser\GlobalSetting\GlobalSettingNode.h" />
+    <ClInclude Include="Includes\XMLParser\GlobalSetting\GlobalSettingParser.h" />
+    <ClInclude Include="Includes\XMLParser\Serializable.h" />
+    <ClInclude Include="Includes\XMLParser\SerializationInfo.h" />
+    <ClInclude Include="Includes\XMLParser\Shortcut\ShortcutInfoNode.h" />
+    <ClInclude Include="Includes\XMLParser\Shortcut\ShortcutListNode.h" />
+    <ClInclude Include="Includes\XMLParser\Shortcut\ShortcutListParser.h" />
+    <ClInclude Include="Includes\XMLParser\XmlSerializer.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WYCCapture.h" />
+    <ClInclude Include="WYCCaptureDlg.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Includes\GlobalFunction\GlobalFunction.cpp" />
+    <ClCompile Include="Includes\GlobalInfo\GlobalInfo.cpp" />
+    <ClCompile Include="Includes\GlobalSetting\GlobalSetting.cpp" />
+    <ClCompile Include="Includes\LocalSystemTime\LocalSystemTime.cpp" />
+    <ClCompile Include="Includes\LockEx\LockEx.cpp" />
+    <ClCompile Include="Includes\MultiMonitor\MonitorDC.cpp" />
+    <ClCompile Include="Includes\MultiMonitor\Monitors.cpp" />
+    <ClCompile Include="Includes\MultiMonitor\MultiMonitor.cpp" />
+    <ClCompile Include="Includes\PathEnvironments\PathEnvironments.cpp" />
+    <ClCompile Include="Includes\PerformanceChecker\PerformanceChecker.cpp" />
+    <ClCompile Include="Includes\ScopeLock\ScopeLock.cpp" />
+    <ClCompile Include="Includes\Shortcut\KeyMapper.cpp" />
+    <ClCompile Include="Includes\Shortcut\ShortcutManager.cpp" />
+    <ClCompile Include="Includes\SystemInitializer\SystemInitializer.cpp" />
+    <ClCompile Include="Includes\Threads\CapturedRegion\CapturedRegion.cpp" />
+    <ClCompile Include="Includes\Threads\CapturedRegion\CapturedRegionManager.cpp" />
+    <ClCompile Include="Includes\Threads\RegionCapture\RegionCaptureDetailRegion.cpp" />
+    <ClCompile Include="Includes\Threads\RegionCapture\RegionCaptureDrawRegion.cpp" />
+    <ClCompile Include="Includes\Threads\RegionCapture\RegionCaptureThread.cpp" />
+    <ClCompile Include="Includes\Threads\ThreadEx.cpp" />
+    <ClCompile Include="Includes\Threads\WindowCapture\WindowCaptureDetailRegion.cpp" />
+    <ClCompile Include="Includes\Threads\WindowCapture\WindowCaptureDrawRegion.cpp" />
+    <ClCompile Include="Includes\Threads\WindowCapture\WindowCaptureThread.cpp" />
+    <ClCompile Include="Includes\TraceEx\TraceEx.cpp" />
+    <ClCompile Include="Includes\TrayIconManager\TrayIconManager.cpp" />
+    <ClCompile Include="Includes\UI\DlgProductInfo\DlgProductInfo.cpp" />
+    <ClCompile Include="Includes\UI\DlgSetting\DlgSetting.cpp" />
+    <ClCompile Include="Includes\UI\TabShortcut\TabShortcut.cpp" />
+    <ClCompile Include="Includes\Util\StringUtil.cpp" />
+    <ClCompile Include="Includes\WMManager\WMManager.cpp" />
+    <ClCompile Include="Includes\WndManager\WndManager.cpp" />
+    <ClCompile Include="Includes\XMLParser\ezxml.cpp" />
+    <ClCompile Include="Includes\XMLParser\GlobalSetting\GlobalSettingNode.cpp" />
+    <ClCompile Include="Includes\XMLParser\GlobalSetting\GlobalSettingParser.cpp" />
+    <ClCompile Include="Includes\XMLParser\Serializable.cpp" />
+    <ClCompile Include="Includes\XMLParser\SerializationInfo.cpp" />
+    <ClCompile Include="Includes\XMLParser\Shortcut\ShortcutInfoNode.cpp" />
+    <ClCompile Include="Includes\XMLParser\Shortcut\ShortcutListNode.cpp" />
+    <ClCompile Include="Includes\XMLParser\Shortcut\ShortcutListParser.cpp" />
+    <ClCompile Include="Includes\XMLParser\XmlSerializer.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WYCCapture.cpp" />
+    <ClCompile Include="WYCCaptureDlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WYCCapture.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WYCCapture.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\WYCCapture.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

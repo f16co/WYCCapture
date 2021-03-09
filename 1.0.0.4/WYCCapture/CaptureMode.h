@@ -1,0 +1,7 @@
+#pragma once
+
+enum CAPTURE_MODE
+{
+	CAPTURE_MODE_REGION,
+	CAPTURE_MODE_WINDOW
+};

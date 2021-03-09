@@ -1,0 +1,9 @@
+WYCCapture 1.0.0.1
+
+1. Region Capture
+2. Window Capture
+3. Edit Captured Region
+   (1) Custom Draw
+   (2) Copy to Clipboard
+   (3) Save to file
+4. Edit Shortcut Settings

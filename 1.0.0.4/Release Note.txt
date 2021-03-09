@@ -1,0 +1,27 @@
+WYCCapture 1.0.0.4	
+
+1. Change Capture Method
+	-> You can change the capture mode with the shortcut or context menu.
+
+WYCCapture 1.0.0.3
+
+1. Captured Region Custom Erase Added
+
+----------
+
+WYCCapture 1.0.0.2
+
+1. Captured Region Custom Draw Bug Fixed
+2. Window Capture Bug Fixed
+
+----------
+
+WYCCapture 1.0.0.1
+
+1. Region Capture
+2. Window Capture
+3. Edit Captured Region
+   (1) Custom Draw
+   (2) Copy to Clipboard
+   (3) Save to file
+4. Edit Shortcut Settings

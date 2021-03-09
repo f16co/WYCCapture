@@ -1,0 +1,17 @@
+ECHO OFF
+
+FOR /F "delims==" %%P IN ('cd') DO SET WORKFOLDER=%%P
+SET PROJECT_DIR=%~1
+SET TARGET_DIR=%~2
+SET	PLATFORM=%3
+SET VLD_PLATFORM=%4
+
+ECHO Copy Resource
+SET TARGET_PATH="%TARGET_DIR%Resource"
+IF NOT EXIST %TARGET_PATH% mkdir %TARGET_PATH%
+xcopy /YSCD "%PROJECT_DIR%..\Resource\GlobalSetting.xml" %TARGET_PATH%
+xcopy /YSCD "%PROJECT_DIR%..\Resource\ShortcutList.xml" %TARGET_PATH%
+
+ECHO Copy Manual
+SET TARGET_PATH="%TARGET_DIR%"
+xcopy /YSCD "%PROJECT_DIR%..\Resource\Manual.txt" %TARGET_PATH%

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShortcutList>
+	<ShortcutInfo>
+		<ReceiverName>TrayIcon</ReceiverName>
+		<CommandName>Region Capture(&amp;R)...</CommandName>
+		<CommandID>0</CommandID>
+		<Key>Ctrl+Alt+Shift+R</Key>
+	</ShortcutInfo>
+	<ShortcutInfo>
+		<ReceiverName>TrayIcon</ReceiverName>
+		<CommandName>Window Capture(&amp;W)...</CommandName>
+		<CommandID>1</CommandID>
+		<Key>Ctrl+Alt+Shift+W</Key>
+	</ShortcutInfo>
+	<ShortcutInfo>
+		<ReceiverName>TrayIcon</ReceiverName>
+		<CommandName>Setting(&amp;S)...</CommandName>
+		<CommandID>2</CommandID>
+		<Key>Ctrl+Alt+Shift+F7</Key>
+	</ShortcutInfo>
+	<ShortcutInfo>
+		<ReceiverName>TrayIcon</ReceiverName>
+		<CommandName>Product Info(&amp;I)...</CommandName>
+		<CommandID>3</CommandID>
+		<Key>Ctrl+Alt+Shift+F8</Key>
+	</ShortcutInfo>
+	<ShortcutInfo>
+		<ReceiverName>TrayIcon</ReceiverName>
+		<CommandName>Exit(&amp;E)...</CommandName>
+		<CommandID>4</CommandID>
+		<Key>Ctrl+Alt+Shift+F4</Key>
+	</ShortcutInfo>
+	<ShortcutInfo>
+		<ReceiverName>CapturedRegion</ReceiverName>
+		<CommandName>Save(&amp;S)...</CommandName>
+		<CommandID>0</CommandID>
+		<Key>Ctrl+S</Key>
+	</ShortcutInfo>
+	<ShortcutInfo>
+		<ReceiverName>CapturedRegion</ReceiverName>
+		<CommandName>Erase(&amp;E)...</CommandName>
+		<CommandID>1</CommandID>
+		<Key>Ctrl+E</Key>
+	</ShortcutInfo>
+	<ShortcutInfo>
+		<ReceiverName>CapturedRegion</ReceiverName>
+		<CommandName>Reset(&amp;R)...</CommandName>
+		<CommandID>2</CommandID>
+		<Key>Ctrl+R</Key>
+	</ShortcutInfo>
+	<ShortcutInfo>
+		<ReceiverName>CapturedRegion</ReceiverName>
+		<CommandName>Copy(&amp;C)...</CommandName>
+		<CommandID>3</CommandID>
+		<Key>Ctrl+C</Key>
+	</ShortcutInfo>
+</ShortcutList>
